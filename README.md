@@ -145,17 +145,8 @@ View in Datadog:
 - APM Traces: https://app.datadoghq.com/apm/traces
 - Data Streams: https://app.datadoghq.com/data-streams
 
-## Troubleshooting
 
-**No traces?**
-- Verify `HTTPPropagator.inject()` and `HTTPPropagator.extract()` are called
-- Check message attributes contain `x-datadog-*` headers
 
-**No DSM data?**
-- Confirm `DD_DATA_STREAMS_ENABLED=true`
-- Verify `set_produce_checkpoint()` and `set_consume_checkpoint()` are called
+https://github.com/user-attachments/assets/3cc24076-3721-429e-80de-fe6ba612ca7e
 
-**Messages not flowing?**
-- Check GCP credentials: `gcloud auth list`
-- Verify topic/subscription exist: `gcloud pubsub subscriptions list`
-- Check logs: `docker-compose logs`
+
