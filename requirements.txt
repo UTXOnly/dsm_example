@@ -1,0 +1,5 @@
+ddtrace>=2.8.0
+fastapi>=0.110
+uvicorn[standard]>=0.29
+google-cloud-pubsub>=2.21.0
+packaging>=21.0
